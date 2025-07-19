@@ -1,0 +1,70 @@
+/* Global Rules */
+* {
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  box-sizing: border-box;
+}
+
+/* Fonts */
+body {
+  font-family: "Playfair Display", serif;
+  font-optical-sizing: auto;
+  font-weight: normal;
+  font-style: normal;
+}
+
+/* Navbar */
+nav {
+  color: #401305;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  border-bottom: 1px solid #401305;
+  padding: 20px 100px 10px;
+  margin: auto;
+}
+
+.nav-links ul {
+  list-style: none;
+  display: flex;
+  gap: 30px;
+  padding: 0;
+  margin: 0;
+}
+
+.nav-icons a,
+.nav-links a,
+.logo a {
+  color: #401305;
+  text-decoration: none;
+  font-weight: 500;
+}
+
+.logo a {
+  font-weight: 700;
+  font-size: 32px;
+}
+
+/* Footer */
+footer {
+  padding-left: 100px;
+  padding-right: 100px;
+  margin: auto;
+}
+
+/* Responsive design */
+@media (min-width: 768px) {
+  .container {
+    width: 750px;
+  }
+}
+@media (min-width: 992px) {
+  .container {
+    width: 970px;
+  }
+}
+@media (min-width: 1200px) {
+  .container {
+    width: 1170px;
+  }
+}

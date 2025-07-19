@@ -1,0 +1,255 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <title>skinera</title>
+      <!--Render elements-->
+    <link rel="stylesheet" href="css/normalize.css"/>
+    <!--css file-->
+    <link rel="stylesheet" href="css/stylesheet.css"/>
+    <!--google fonts-->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,400..900;1,400..900&family=Work+Sans:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
+    <!--fontawesome setup-->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <!--favicon-->
+    <link rel="icon" type="image/png" href="img/favicon/favicon-96x96.png" sizes="96x96" />
+    <link rel="icon" type="image/svg+xml" href="img/favicon/favicon.svg" />
+    <link rel="shortcut icon" href="img/favicon/favicon.ico" />
+    <link rel="apple-touch-icon" sizes="180x180" href="img/favicon/apple-touch-icon.png" />
+    <link rel="manifest" href="img/favicon/site.webmanifest" />
+    
+    
+</head>
+<body>
+  
+    <!-- Navbar -->
+<nav class="navbar">
+  <div class="container">
+    <div class="logo">
+      <a href="#">skinera</a>
+    </div>
+    <ul class="nav-links">
+      <li><a href="home.html">Home</a></li>
+      <li><a href="about us.html">About</a></li>
+      <li><a href="product.html">Products</a></li>
+      <li><a href="contact.html">Contact</a></li>
+    </ul>
+    <div class="nav-icons">
+      <a href="#"><i class="fas fa-search"></i></a>
+      <a href="#"><i class="fas fa-user"></i></a>
+      <a href="cart.html" class="cart-icon">
+        <i class="fas fa-shopping-cart"></i>
+        <span id="cart-count">0</span>
+</a>
+
+    </div>
+  </div>
+</nav>
+<section class="hero-section">
+  <img src="img/pexels-karolina-grabowska-4041392.jpg">
+  <div class="text-overlay">
+  <h2>100% Natural Oils <br>for a Healthier You</h2>
+  <p>
+Discover the power of nature with our premium oils
+crafted to nourish your skin, soothe your senses,
+and elevate your self-care ritual.
+</p>
+<div class="hero-button">
+ <button type="button" class="brown">Buy Now</button> 
+ <button type="button" class="white">How to use</button>
+ </div>
+</div>
+
+</section>
+<!--pragraph-->
+<p class="main-p">we believe that true beauty starts with pure ingredients. Our natural oil blends are carefully crafted to bring out your skin’s natural glow while nourishing it from within.No chemicals, no shortcuts — just nature’s touch in every drop</p>
+<!--produuct-section-->
+<section class="product-sec">
+    <h2><a href="product.html">Our Products</a></h2>
+    <div class="product-filters">
+       <a href="product1.html" class="buy-btn" target="_blank">Shop All</a>
+       <a href="product1.html" class="filter-btn active" target="_blank">Best Sell</a>
+       <a href="product1.html" class="buy-btn" target="_blank">Future product</a>
+       <a href="product1.html" class="buy-btn" target="_blank">Latest Arrivals</a>
+    </div>
+     <div class="product-grid">
+      <!--product-card-->
+     <div class="product-card">
+      <img src="img/cristi-ursea-xc97jWLnO3g-unsplash.jpg" alt="Sweet Almond Body Oil">
+      <h3>Sweet Almond Body Oil</h3>
+      <button class="buy-btn" data-id="1" data-name="Sweet Almond Body Oil" data-price="49.99">Buy Now</button>
+      <span class="icon"><i class="fa-regular fa-heart"></i></span>
+    </div>
+    <div class="product-card">
+      <img src="img/denise-chan-4YxG1l8GZZM-unsplash.jpg" alt="OSEA Undaria Oil">
+      <h3>OSEA Undaria Oil</h3>
+      <button class="buy-btn" data-id="2" data-name="OSEA Undaria Oil" data-price="39.99">Buy Now</button>
+      <span class="icon"><i class="fa-regular fa-heart"></i></span>
+      </div>
+      <div class="product-card">
+      <img src="img/kadarius-seegars-b9KAwJRBXgw-unsplash.jpg" alt="Palmers cocoa  Oil">
+      <h3>Palmers cocoa  Oil</h3>
+      <button class="buy-btn" data-id="3" data-name="Palmers cocoa  Oil" data-price="29.99">Buy Now</button>
+      <span class="icon"><i class="fa-regular fa-heart"></i></span>
+      </div>
+      <div class="product-card">
+      <img src="img/enecta-cannabis-extracts-eMMFLrDQLzM-unsplash.jpg" alt="Tatcha Hinoki Body Oil">
+      <h3>Tatcha Hinoki Body Oil</h3>
+      <button class="buy-btn" data-id="4" data-name="Tatcha Hinoki Body Oil" data-price="19.99">Buy Now</button>
+      <span class="icon"><i class="fa-regular fa-heart"></i></span>
+      </div>
+      <div class="product-card">
+      <img src="img/pexels-ani-coloca-1105433412-20862416.jpg" alt="Sweet Almond Body Oil">
+      <h3>Sweet Almond Body Oil</h3>
+      <button class="buy-btn" data-id="5" data-name="Sweet Almond Body Oil" data-price="42.99">Buy Now</button>
+      <span class="icon"><i class="fa-regular fa-heart"></i></span>
+    </div>
+    <div class="product-card">
+      <img src="img/nora-topicals-ErNCyAsDgfg-unsplash.jpg" alt="OSEA Undaria Oil">
+      <h3>OSEA Undaria Oil</h3>
+      <button class="buy-btn" data-id="6" data-name="OSEA Undaria Oil" data-price="25.5">Buy Now</button>
+      <span class="icon"><i class="fa-regular fa-heart"></i></span>
+      </div>
+      <div class="product-card">
+      <img src="img/kf-care-oficial-ErptOIjpxVY-unsplash.jpg" alt="Palmers cocoa  Oil">
+      <h3>Palmers cocoa  Oil</h3>
+      <button class="buy-btn" data-id="7" data-name="Palmers cocoa  Oil" data-price="50.1">Buy Now</button>
+      <span class="icon"><i class="fa-regular fa-heart"></i></span>
+      </div>
+      <div class="product-card">
+      <img src="img/kelly-sikkema-ClsLegwrCQQ-unsplash.jpg" alt="Tatcha Hinoki Body Oil">
+      <h3>Tatcha Hinoki Body Oil</h3>
+      <button class="buy-btn" data-id="8" data-name="Tatcha Hinoki Body Oil"data-price="49.99">Buy Now</button>
+      <span class="icon"><i class="fa-regular fa-heart"></i></span>
+      </div>
+      </div>
+      <!--addToCart-->
+      <script>
+  const buttons = document.querySelectorAll('.buy-btn');
+  const cartCountSpan = document.getElementById('cart-count');
+
+  // تحميل الكارت من localStorage
+  let cartItems = JSON.parse(localStorage.getItem("cartItems")) || [];
+
+  // تحديث رقم السلة
+  function updateCartCount() {
+    if (cartItems.length > 0) {
+      cartCountSpan.textContent = cartItems.length;
+      cartCountSpan.style.display = "inline-block";
+    } else {
+      cartCountSpan.style.display = "none";
+    }
+  }
+
+  updateCartCount();
+
+  // حدث عند الضغط على Buy Now
+  buttons.forEach(button => {
+    button.addEventListener('click', function (event) {
+      event.preventDefault();
+
+      const productName = this.getAttribute('data-name');
+      const productPrice = parseFloat(this.getAttribute('data-price'));
+
+      // أضف العنصر للكارت
+      cartItems.push({ name: productName, price: productPrice });
+
+      // خزنه في localStorage
+      localStorage.setItem("cartItems", JSON.stringify(cartItems));
+
+      // حدث الرقم اللي فوق السلة
+      updateCartCount();
+
+      alert("your order has been added to cart ✅");
+    });
+  });
+</script>
+
+
+</section>
+<!--faq-sec-->
+<section class="faq-section">
+  <div class="faq-left">
+    <h2>Frequently Asked <br> Questions</h2>
+    <p>Frequently Asked Questions (FAQs) provide answers to common inquiries about a product, service or topic.</p>
+    <img src="img/pexels-karolina-grabowska-40413912.jpg" alt="FAQ Image">
+  </div>
+
+  <div class="faq-right">
+    <div class="accordion-item">
+      <button class="accordion">What are the benefits of using body oil?</button>
+      <div class="panel">
+        <p>Body oils provide deep hydration, nourish the skin, improve elasticity, and help lock in moisture.</p>
+      </div>
+    </div>
+
+    <div class="accordion-item">
+      <button class="accordion">Which body oil is best for dry skin?</button>
+      <div class="panel">
+        <p>Sweet almond oil and coconut oil are highly recommended for dry skin.</p>
+      </div>
+    </div>
+
+    <div class="accordion-item">
+      <button class="accordion">Are body oils suitable for all skin types?</button>
+      <div class="panel">
+        <p>Yes, body oils are generally suitable for all skin types. Choose one based on your skin’s needs.</p>
+      </div>
+    </div>
+
+    <div class="accordion-item">
+      <button class="accordion">Can I use body oil on my face and hair?</button>
+      <div class="panel">
+        <p>Some oils like jojoba and argan are safe for face and hair, but always patch test first.</p>
+      </div>
+    </div>
+  </div>
+  <script>
+  const accordions = document.querySelectorAll(".accordion");
+
+  accordions.forEach((accordion) => {
+    accordion.addEventListener("click", function () {
+      this.classList.toggle("active");
+
+      const panel = this.nextElementSibling;
+      if (panel.style.maxHeight) {
+        panel.style.maxHeight = null;
+      } else {
+        panel.style.maxHeight = panel.scrollHeight + "px";
+      }
+    });
+  });
+</script>
+
+</section>
+
+
+<!-- Footer -->
+<footer class="footer">
+  <div class="container footer-container">
+    <div class="footer-logo">
+      <h2>skinera</h2>
+      <p>© 2025 skinera. All rights reserved.</p>
+    </div>
+
+    <div class="footer-links">
+      <a href="home.html">Home</a>
+      <a href="about us.html">About</a>
+      <a href="product.html">Products</a>
+      <a href="contact.html">Contact</a>
+    </div>
+
+    <div class="footer-social">
+      <a href="#"><i class="fab fa-facebook-f"></i></a>
+      <a href="#"><i class="fab fa-instagram"></i></a>
+      <a href="#"><i class="fab fa-twitter"></i></a>
+    </div>
+  </div>
+</footer>
+
+</body>
+</html>
